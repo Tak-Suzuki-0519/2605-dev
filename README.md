@@ -13,7 +13,7 @@
 
 ---------------------------------------
 # [:fire:Key features](#Key-features)
-+ ai_parse_document function
++ (PDF process)ai_parse_document function
   + Why: very competitive service(function) comparing to "Azure Document Intelligence" for PDF processing from the view of accuracy/cost.
     + https://www.databricks.com/blog/pdfs-production-announcing-state-art-document-intelligence-databricks-article
   + Official doc
