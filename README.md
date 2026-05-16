@@ -5,17 +5,20 @@
 > 
 
 # :fire:Table of Contents:fire:
-- [:fire:2605-dev](#fire2605-dev)
 - [:fire:Table of Contents:fire:](#firetable-of-contentsfire)
+- [:fire:Key features](#firekey-features)
 - [:fire:Technology Selection](#firetechnology-selection)
   - [:fire:High-Level Design](#firehigh-level-design)
   - [:fire:Others](#fireothers)
 
 ---------------------------------------
-
+# [:fire:Key features](#Key-features)
 + ai_parse_document function
   + Why: very competitive service(function) comparing to Azure Document Intelligence for PDF processing from the view of accuracy/cost.
     + https://www.databricks.com/blog/pdfs-production-announcing-state-art-document-intelligence-databricks-article
+
+<img width="638" height="468" alt="image" src="https://github.com/user-attachments/assets/b5162000-a58f-4572-8ca3-7699a35c0370" />
+
 
   + Official doc
   + https://docs.databricks.com/aws/en/sql/language-manual/functions/ai_parse_document
