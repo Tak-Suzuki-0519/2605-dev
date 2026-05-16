@@ -12,6 +12,19 @@
   - [:fire:Others](#fireothers)
 
 ---------------------------------------
+
++ ai_parse_document function
+  + Why: very competitive service(function) comparing to Azure Document Intelligence for PDF processing from the view of accuracy/cost.
+    + https://www.databricks.com/blog/pdfs-production-announcing-state-art-document-intelligence-databricks-article
+
+  + Official doc
+  + https://docs.databricks.com/aws/en/sql/language-manual/functions/ai_parse_document
++ 
++ Lakeflow Spark Declarative Pipelines(SDP)
++ Foundation Model APIs
++ 
+
+---------------------------------------
 # [:fire:Technology Selection](#Technology-Selection)
 + AZURE
   + Azure Databricks
