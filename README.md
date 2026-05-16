@@ -5,6 +5,7 @@
 > 
 
 # :fire:Table of Contents:fire:
+- [:fire:2605-dev](#fire2605-dev)
 - [:fire:Table of Contents:fire:](#firetable-of-contentsfire)
 - [:fire:Key features](#firekey-features)
 - [:fire:Technology Selection](#firetechnology-selection)
@@ -36,6 +37,7 @@
   + Lakeflow Spark Declarative Pipelines(SDP)
   + Databricks CLI
   + Databricks Secret Scope
+  + Databricks SQL
   + 
 + Development tools: 
   + Claude Code, 
