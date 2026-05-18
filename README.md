@@ -2,8 +2,9 @@
 
 > [!NOTE]  
 > dev for Hands-on<br><br>
-> 下記の理解を深めるためのハンズオン用リポジトリです<br>
-> 1, PDFのAI処理でトップレベルの利用がされている"Azure Document Intelligence"の、ほぼ同等な品質で3分の1から5分の1のコストが可能な"Databricksのai_parse_document function"のハンズオン<br>
+> 下記の理解を深めるためのハンズオン用リポジトリです。2026年5月18日より開発に着手しています。<br>
+> 最新の開発中の実装はプルリクを参照願います<br>
+> 1, PDFのAI処理でトップレベルの利用がされている"Azure Document Intelligence"とほぼ同等な品質で3分の1から5分の1のコストが可能な、"Databricksのai_parse_document function"のハンズオン<br>
 > 2, Lakeflow Spark Declarative Pipelines(SDP)のハンズオン<br>
 > 3, Mosaic AI Vector Searchなどの競争力のあるDatabricksのAI機能のハンズオン<br>
 > 
