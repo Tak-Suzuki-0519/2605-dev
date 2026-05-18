@@ -12,7 +12,7 @@
 # :fire:Table of Contents:fire:
 - [:fire:Table of Contents:fire:](#firetable-of-contentsfire)
 - [:fire:Key features](#firekey-features)
-- [:fire:Technology Selection](#firetechnology-selection)
+- [:fire:Technology Selections](#firetechnology-selections)
   - [:fire:High-Level Design](#firehigh-level-design)
   - [:fire:Others](#fireothers)
 
@@ -31,7 +31,7 @@
 + 
 
 ---------------------------------------
-# [:fire:Technology Selection](#Technology-Selection)
+# [:fire:Technology Selections](#Technology-Selections)
 + AZURE
   + Azure Databricks
   + Azure OpenAI
