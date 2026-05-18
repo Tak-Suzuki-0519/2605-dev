@@ -7,7 +7,7 @@
 > 1, PDFのAI処理でトップレベルの利用がされている"Azure Document Intelligence"とほぼ同等な品質で3分の1から5分の1のコストが可能な、"Databricksのai_parse_document function"のハンズオン<br>
 > 2, Lakeflow Spark Declarative Pipelines(SDP)のハンズオン<br>
 > 3, Mosaic AI Vector Searchなどの競争力のあるDatabricksのAI機能のハンズオン<br>
-> 
+> 4, AZUREのハンズオン<br>
 
 # :fire:Table of Contents:fire:
 - [:fire:Table of Contents:fire:](#firetable-of-contentsfire)
