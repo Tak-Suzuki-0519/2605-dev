@@ -7,6 +7,7 @@ CREATE OR REFRESH STREAMING TABLE dev_catalog.ai_parse_document.parsed
 COMMENT 'ai_parse_document v2.0 test'
 AS
 SELECT
+  xxhash64(_metadata.file_path, modificationTime) & 10^19 AS document_id,
   * EXCEPT (content),
   _metadata.file_path,
   _metadata.file_name,
