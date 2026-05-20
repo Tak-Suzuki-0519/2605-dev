@@ -3,15 +3,19 @@
 -- Target: dev_catalog.ai_parse_document.parsed       (streaming table)
 -- ============================================================================
 
-CREATE OR REFRESH STREAMING TABLE dev_catalog.ai_parse_document.parsed
+-- TODO check "CLUSTER BY" or "CLUSTER BY AUTO" later
+
+CREATE OR REFRESH STREAMING TABLE dev_catalog.ai_parse_document.parsed (
+    document_id BIGINT NOT NULL,
+      CONSTRAINT pk_parsed PRIMARY KEY (document_id) RELY
+)
 COMMENT 'ai_parse_document v2.0 test'
 AS
 SELECT
-  xxhash64(_metadata.file_path, modificationTime) & 10^19 AS document_id,
+  abs(xxhash64(_metadata.file_path, modificationTime)) AS document_id,
   * EXCEPT (content),
   _metadata.file_path,
   _metadata.file_name,
-  _metadata.file_size,
   _metadata.file_block_start,
   ai_parse_document(content, map('version', '2.0')) AS ai_parse_document,
   current_timestamp() AS _ingested_at
