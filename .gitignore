@@ -220,5 +220,9 @@ __marimo__/
 # 
 .claude/
 CLAUDE.md
+service-created-manually.md
+data/
 .planning/
 .superpower-dev/
+typings/__builtins__.pyi
+.DS_Store
